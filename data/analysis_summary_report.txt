@@ -1,0 +1,39 @@
+
+RENEWABLE ENERGY INFRASTRUCTURE GROWTH MONITOR - ANALYSIS SUMMARY
+================================================================================
+
+1. GLOBAL FORECAST (2025-2029)
+--------------------------------------------------------------------------------
+   Model Used: Linear Regression with 85,785 MW/Year growth trend
+   Latest Year Capacity: 3,795,525 MW
+   Forecast 2029 Capacity: 2,966,087 MW
+   Expected Growth: -829,438 MW (5 years)
+
+2. MODEL PERFORMANCE
+--------------------------------------------------------------------------------
+   Best Model: Gradient Boosting
+   Best R² Score: 0.9725
+   Linear Regression R²: -2.5285
+
+3. REGIONAL GROWTH LEADERS
+--------------------------------------------------------------------------------
+   Top Region: Asia (CAGR: 11.02%)
+
+4. TOP 5 COUNTRIES BY GROWTH
+--------------------------------------------------------------------------------
+   152. Kuwait: 123.99% CAGR, 112 MW
+   136. China, Hong Kong Special Administrative Region: 109.74% CAGR, 393 MW
+   154. Oman: 100.15% CAGR, 722 MW
+   138. State of Palestine (the): 99.76% CAGR, 193 MW
+   27. Djibouti: 93.27% CAGR, 60 MW
+
+5. KEY INSIGHTS
+--------------------------------------------------------------------------------
+   - Number of Regions Analyzed: 5
+   - Number of Countries Analyzed: 223
+   - Average Regional CAGR: 7.38%
+   - Rapid Growth Regions: 2
+   - Steady Growth Regions: 1
+   - Emerging Regions: 2
+
+================================================================================
