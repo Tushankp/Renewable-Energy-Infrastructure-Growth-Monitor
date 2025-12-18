@@ -1,4 +1,4 @@
-# EDA-11: Renewable Energy Infrastructure Growth Monitor
+# Renewable Energy Infrastructure Growth Monitor
 
 ## Project Overview
 
