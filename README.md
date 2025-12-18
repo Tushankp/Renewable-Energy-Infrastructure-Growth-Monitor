@@ -1,10 +1,10 @@
 # EDA-11: Renewable Energy Infrastructure Growth Monitor
 
-## 📋 Project Overview
+## Project Overview
 
 This project tracks and analyzes the capacity growth of renewable energy facilities globally, focusing on solar, wind, hydro, and biomass energy sources. It combines data analysis, machine learning forecasting, and regional comparison to identify trends in green energy adoption.
 
-## 🎯 Objectives
+##  Objectives
 
 ### ML/Data Analytics Goals:
 1. **Forecast** renewable energy adoption rates globally and by source type
@@ -12,7 +12,7 @@ This project tracks and analyzes the capacity growth of renewable energy facilit
 3. **Analyze** growth patterns across different renewable energy technologies
 4. **Compare** regional renewable energy infrastructure development
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 DVA PROJECT TATA/
@@ -40,7 +40,7 @@ DVA PROJECT TATA/
 └── requirements.txt                     # Python package dependencies
 ```
 
-## 📊 Dataset Information
+## Dataset Information
 
 ### Source
 - **IRENA Renewable Energy Database** - Global renewable energy capacity statistics
@@ -64,7 +64,7 @@ DVA PROJECT TATA/
 - Missing values handled through careful imputation
 - Duplicates removed during cleaning process
 
-## 🔧 Features Engineered
+##  Features Engineered
 
 For machine learning models, the following features were created:
 
@@ -74,7 +74,7 @@ For machine learning models, the following features were created:
 4. **Regional_Avg_Capacity** - Regional average capacity for relative comparison
 5. **Country_Encoded, Technology_Encoded** - Categorical encoding for ML models
 
-## 📈 Analysis Components
+##  Analysis Components
 
 ### 1. Exploratory Data Analysis (EDA)
 - Statistical summaries and distributions
@@ -112,32 +112,32 @@ Three models developed for capacity forecasting:
 ### 4. Regional Clustering & Growth Identification
 
 Regions classified into three categories:
-- **🚀 Rapid Growth**: CAGR > 66th percentile
-- **📈 Steady Growth**: CAGR between 33rd-66th percentile
-- **🌱 Emerging**: CAGR < 33rd percentile
+- **Rapid Growth**: CAGR > 66th percentile
+- **Steady Growth**: CAGR between 33rd-66th percentile
+- **Emerging**: CAGR < 33rd percentile
 
 K-Means clustering identifies natural groupings in regional growth patterns.
 
 ### 5. Forecasting (2025-2029)
 Global renewable energy capacity projections for the next 5 years with confidence intervals.
 
-## 📊 Key Deliverables
+## Key Deliverables
 
 ### Deliverable 1: Data Infrastructure
-- ✅ Clean CSV datasets (renewable_energy_clean.csv, renewable_energy_ml_features.csv)
-- ✅ Python notebooks for data extraction and processing
-- ✅ Comprehensive dataset structure documentation
-- ✅ Data quality assessment and cleaning procedures
+- Clean CSV datasets (renewable_energy_clean.csv, renewable_energy_ml_features.csv)
+- Python notebooks for data extraction and processing
+- Comprehensive dataset structure documentation
+- Data quality assessment and cleaning procedures
 
 ### Deliverable 2: ML Analysis & Automation
-- ✅ ML forecasting notebooks with multiple model architectures
-- ✅ Regional growth analysis and clustering results
-- ✅ Technology trend analysis and CAGR calculations
-- ✅ Automated update pipeline for annual datasets
-- ✅ Visualization library for insights presentation
-- ✅ Results documentation and analysis report
+- ML forecasting notebooks with multiple model architectures
+- Regional growth analysis and clustering results
+- Technology trend analysis and CAGR calculations
+- Automated update pipeline for annual datasets
+- Visualization library for insights presentation
+- Results documentation and analysis report
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 ```bash
@@ -148,7 +148,7 @@ pip (Python package manager)
 ### Installation
 1. **Clone/Download the project**
    ```bash
-   cd "DVA PROJECT TATA"
+   cd "DVA PROJECT Tushank"
    ```
 
 2. **Install dependencies**
@@ -171,7 +171,7 @@ This script:
 - Generates updated forecasts
 - Creates visualization outputs
 
-## 📈 Key Findings
+## Key Findings
 
 ### Global Renewable Energy Trends
 1. **Exponential Growth**: Renewable energy capacity growing at 10-15% annually
@@ -192,7 +192,7 @@ This script:
 - **Germany**: High renewable penetration percentage
 - **Brazil**: Significant hydro and biomass generation
 
-## 📊 Visualizations Generated
+## Visualizations Generated
 
 1. **regional_trends.png** - Capacity growth by region over time
 2. **technology_region_heatmap.png** - Renewable source distribution by region
@@ -202,7 +202,7 @@ This script:
 6. **regional_clustering.png** - Regional growth classification
 7. **country_analysis.png** - Top countries by growth and capacity
 
-## 🔄 Automated Pipeline
+## Automated Pipeline
 
 The `update_pipeline.py` script enables:
 - **Annual Updates**: Process new year data automatically
@@ -223,14 +223,14 @@ The `update_pipeline.py` script enables:
 
 See `requirements.txt` for specific versions.
 
-## 📝 Documentation Files
+##  Documentation Files
 
 - **DATASET_STRUCTURE.md** - Detailed field definitions and data quality metrics
 - **METHODOLOGY.md** - Analysis approaches and ML model descriptions
 - **RESULTS.md** - Interpretation of findings and insights
 - **INSTALLATION.md** - Detailed setup instructions
 
-## 💡 Usage Examples
+##  Usage Examples
 
 ### Load and Explore Data
 ```python
@@ -251,30 +251,30 @@ regional_metrics = pd.read_csv('data/regional_growth_metrics.csv')
 print(regional_metrics.sort_values('CAGR', ascending=False))
 ```
 
-## 🎓 Learning Outcomes
+##  Learning Outcomes
 
 This project demonstrates:
-- ✅ Data cleaning and exploratory analysis at scale
-- ✅ Time series forecasting techniques
-- ✅ Ensemble machine learning methods
-- ✅ Feature engineering for predictive modeling
-- ✅ Clustering and classification analysis
-- ✅ Automated data pipeline development
-- ✅ Professional data visualization
-- ✅ Statistical analysis and reporting
+- Data cleaning and exploratory analysis at scale
+- Time series forecasting techniques
+- Ensemble machine learning methods
+- Feature engineering for predictive modeling
+- Clustering and classification analysis
+- Automated data pipeline development
+- Professional data visualization
+- Statistical analysis and reporting
 
-## 📞 Support & Contact
+## Support & Contact
 
 For questions or issues:
 1. Check existing documentation in `/docs` folder
 2. Review notebook comments and markdown cells
 3. Consult dataset documentation and analysis methodology
 
-## 📄 License
+## License
 
 This project uses publicly available IRENA renewable energy data. Processing and analysis are provided for educational and research purposes.
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - Integration with real-time API data sources
 - Deep learning models (LSTM, Transformer) for time series
@@ -285,6 +285,7 @@ This project uses publicly available IRENA renewable energy data. Processing and
 
 ---
 
-**Project Status**: ✅ Complete & Operational
-**Last Updated**: December 2024
-**Analyst**: Data Science Team
+**Project Status**: Complete & Operational
+**Last Updated**: December 2025
+**Analyst**: Tushank Patel
+**Guided by**: Dr. Sonali Agarwal
